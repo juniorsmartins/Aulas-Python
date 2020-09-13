@@ -16,4 +16,5 @@ print('')
 n5 = input('Digite algo: ')
 print(n5.isnumeric())
 print(n5.isalpha())
+print(n5.isalnum())
 
