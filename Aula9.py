@@ -1,0 +1,5 @@
+valor1 = int(input('Digite o primeiro valor inteiro: '))
+valor2 = int(input('Digite o segundo valor inteiro: '))
+soma = (valor1 + valor2)
+print('A soma de {} com {} é: {}'.format(valor1, valor2, soma)) 
+print(type(soma))
