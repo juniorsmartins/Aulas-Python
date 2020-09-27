@@ -1,4 +1,6 @@
 # coding: latin-1
+cadastro_Produto = {'nome': '', 'custo': '', 'quantia': '', 'lucro': '', 'codigo': ''}
+
 opcao_Principal = 8
 while (opcao_Principal != 0):
   print("\n"*5)
@@ -24,9 +26,13 @@ while (opcao_Principal != 0):
     print("Consultar - 2")
     input("Digite <enter> para continuar...")
   elif (opcao_Principal == 3):
+
+
     print("\n")
     print("Cadastrar - 3")
     input("Digite <enter> para continuar...")
+
+
   elif (opcao_Principal == 4):
     print("\n")
     print("Alterar - 4")
