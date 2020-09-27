@@ -11,4 +11,3 @@ while 1:
     print('')
     print('O mês escolhido é: {}'.format(meses[mes - 1]))
     print('')
-
