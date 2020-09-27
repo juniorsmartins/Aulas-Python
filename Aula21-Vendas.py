@@ -15,14 +15,41 @@ while (opcao_Principal != 0):
   print("-"*40)
   opcao_Principal = int(input("-"*10 + "  Qual opção? "))
 
-#  switch (opcao_Principal):
-#    case 1:
-
-
-
-
+  if (opcao_Principal == 1):
+    print("\n")
+    print("Vender - 1")
+    input("Digite <enter> para continuar...")
+  elif (opcao_Principal == 2):
+    print("\n")
+    print("Consultar - 2")
+    input("Digite <enter> para continuar...")
+  elif (opcao_Principal == 3):
+    print("\n")
+    print("Cadastrar - 3")
+    input("Digite <enter> para continuar...")
+  elif (opcao_Principal == 4):
+    print("\n")
+    print("Alterar - 4")
+    input("Digite <enter> para continuar...")
+  elif (opcao_Principal == 5):
+    print("\n")
+    print("Excluir - 5")
+    input("Digite <enter> para continuar...")
+  elif (opcao_Principal == 6):
+    print("\n")
+    print("Relatar - 6")
+    input("Digite <enter> para continuar...")
+  elif (opcao_Principal == 0):
+    print("\n")
+    print("Sair - 0")
+    input("Digite <enter> para continuar...")
+  else:
+    print("\n")
+    print("Opção Inválida!")
+    input("Digite <enter> para continuar...")
 
 else:
+  print("\n")
   print("Tchau! Hasta la vista baby.")
-
+  print("\n")
 
