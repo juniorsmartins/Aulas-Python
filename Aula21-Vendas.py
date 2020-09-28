@@ -1,5 +1,7 @@
 # coding: latin-1
-cadastro_Produto = {'nome': '', 'custo': '', 'quantia': '', 'lucro': '', 'codigo': ''}
+
+cad_Prod[] = dict()
+cad_Prod['codigo'] = 0;
 
 opcao_Principal = 8
 while (opcao_Principal != 0):
@@ -24,10 +26,17 @@ while (opcao_Principal != 0):
   elif (opcao_Principal == 2):
     print("\n")
     print("Consultar - 2")
+    print("\n")
+    print(cad_Prod)
     input("Digite <enter> para continuar...")
   elif (opcao_Principal == 3):
 
-
+    print("\n")
+    cad_Prod['nome'] = str(input('Nome: '))
+    cad_Prod['custo'] = float(input('Custo: '))
+    cad_Prod['quantia'] = float(input('Quantia: '))
+    cad_Prod['lucro'] = float(input('Markup: '))
+    cad_Prod['codigo'] = cad_Prod['codigo'] + 1
     print("\n")
     print("Cadastrar - 3")
     input("Digite <enter> para continuar...")
